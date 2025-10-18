@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>हैप्पी दिवाली!</title>
+  <style>
+    body {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding-top: 50px;
+      font-family: sans-serif;
+    }
+    img {
+      max-width: 300px;
+      border: 5px solid #ffd700;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 20px 0;
+      color: #ffd700;
+    }
+    .audio-container {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="YOUR_PHOTO_URL_HERE" alt="मेरी फोटो">
+  <h1>YOUR_NAME_HERE wishes you<br>हैप्पी दिवाली!</h1>
+
+  <div class="audio-container">
+    <audio controls autoplay>
+      <source src="YOUR_AUDIO_URL_HERE" type="audio/mpeg">
+      आपका ब्राउज़र ऑडियो टैग सपोर्ट नहीं करता।
+    </audio>
+  </div>
+
+</body>
+</html>
